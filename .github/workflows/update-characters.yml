@@ -26,11 +26,14 @@ jobs:
       
       - name: Fetch latest character data
         run: node fetch_characters.js
+
+      - name: Generate internal data
+        run: npm run generate-data
       
       - name: Check for changes
         id: check
         run: |
-          if git diff --quiet src/characters.json; then
+          if git diff --quiet src/; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -41,8 +44,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/characters.json
-          git commit -m "chore: update character data"
+          git add src/
+          git commit -m "chore: update character and talent data"
           git push
       
       - name: Build

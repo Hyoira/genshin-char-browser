@@ -1,0 +1,212 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.tabs button {
+  padding: 0.5em 1.2em;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: inherit;
+  font-weight: bold;
+}
+
+.tabs button.active {
+  background-color: #646cff;
+  color: white;
+  border-color: #646cff;
+}
+
+/* Character List Controls */
+.character-list .controls {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+button {
+  padding: 0.5em 1em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button.active {
+  background-color: #646cff;
+  color: white;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.group h2 {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center; /* Center cards on smaller screens */
+}
+
+@media (min-width: 600px) {
+  .cards {
+    justify-content: flex-start;
+  }
+}
+
+.card {
+  position: relative;
+  width: 110px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  z-index: 10;
+  box-shadow: 0 8px 12px rgba(0,0,0,0.4);
+}
+
+/* Element backgrounds */
+.element-pyro { background: linear-gradient(160deg, #7a2020, #e05c5c); }
+.element-hydro { background: linear-gradient(160deg, #1a3c7a, #4cc3f8); }
+.element-anemo { background: linear-gradient(160deg, #1a6a5b, #70e6d6); }
+.element-electro { background: linear-gradient(160deg, #3a1050, #ae68ff); }
+.element-dendro { background: linear-gradient(160deg, #1a4a20, #80d64d); }
+.element-cryo { background: linear-gradient(160deg, #2a7090, #a0e6ff); }
+.element-geo { background: linear-gradient(160deg, #6a4a10, #f8d66d); }
+.element-none { background: linear-gradient(160deg, #333, #777); }
+
+/* Rarity Borders */
+.rarity-5 { border: 2px solid #ffd700; }
+.rarity-4 { border: 2px solid #c0c0c0; }
+
+.icon-wrapper {
+  width: 100%;
+  aspect-ratio: 1;
+  background: rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.icon-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.card:hover .icon-wrapper img {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 6px;
+  background: rgba(0,0,0,0.6);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.stars {
+  color: #ffd700;
+  letter-spacing: -2px;
+}
+
+.va {
+  font-size: 0.65rem;
+  opacity: 0.7;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.birthday-display {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-align: center;
+  padding: 4px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+  }
+}

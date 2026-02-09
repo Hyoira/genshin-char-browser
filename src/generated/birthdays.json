@@ -3,7 +3,7 @@
     "name": "ドール（男）",
     "month": 0,
     "day": 0,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_MannequinBoy.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MannequinBoy.png",
     "rarity": 5,
     "element": "None"
   },
@@ -11,7 +11,7 @@
     "name": "ドール（女）",
     "month": 0,
     "day": 0,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_MannequinGirl.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MannequinGirl.png",
     "rarity": 5,
     "element": "None"
   },
@@ -19,7 +19,7 @@
     "name": "放浪者",
     "month": 1,
     "day": 3,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Wanderer.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -27,7 +27,7 @@
     "name": "ヤフォダ",
     "month": 1,
     "day": 5,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Jahoda.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Jahoda.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -35,7 +35,7 @@
     "name": "藍硯",
     "month": 1,
     "day": 6,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Lanyan.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lanyan.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -43,7 +43,7 @@
     "name": "トーマ",
     "month": 1,
     "day": 9,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Tohma.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -51,7 +51,7 @@
     "name": "シュヴルーズ",
     "month": 1,
     "day": 10,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Chevreuse.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -59,7 +59,7 @@
     "name": "コロンビーナ",
     "month": 1,
     "day": 14,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Columbina.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Columbina.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -67,7 +67,7 @@
     "name": "ディオナ",
     "month": 1,
     "day": 18,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Diona.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -75,7 +75,7 @@
     "name": "シトラリ",
     "month": 1,
     "day": 20,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Citlali.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Citlali.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -83,7 +83,7 @@
     "name": "綺良々",
     "month": 1,
     "day": 22,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Momoka.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png",
     "rarity": 4,
     "element": "Dendro"
   },
@@ -91,7 +91,7 @@
     "name": "ロサリア",
     "month": 1,
     "day": 24,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Rosaria.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -99,7 +99,7 @@
     "name": "リネット",
     "month": 2,
     "day": 2,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Linette.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linette.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -107,7 +107,7 @@
     "name": "リネ",
     "month": 2,
     "day": 2,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Liney.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -115,7 +115,7 @@
     "name": "アルハイゼン",
     "month": 2,
     "day": 11,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Alhatham.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -123,7 +123,7 @@
     "name": "北斗",
     "month": 2,
     "day": 14,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Beidou.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -131,7 +131,7 @@
     "name": "珊瑚宮心海",
     "month": 2,
     "day": 22,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Kokomi.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -139,7 +139,7 @@
     "name": "ベネット",
     "month": 2,
     "day": 29,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Bennett.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -147,7 +147,7 @@
     "name": "ラウマ",
     "month": 3,
     "day": 1,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Lauma.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -155,7 +155,7 @@
     "name": "七七",
     "month": 3,
     "day": 3,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Qiqi.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -163,7 +163,7 @@
     "name": "ヨォーヨ",
     "month": 3,
     "day": 6,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Yaoyao.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
     "rarity": 4,
     "element": "Dendro"
   },
@@ -171,7 +171,7 @@
     "name": "申鶴",
     "month": 3,
     "day": 10,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Shenhe.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -179,7 +179,7 @@
     "name": "シロネン",
     "month": 3,
     "day": 13,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Xilonen.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xilonen.png",
     "rarity": 5,
     "element": "Geo"
   },
@@ -187,7 +187,7 @@
     "name": "ドゥリン",
     "month": 3,
     "day": 14,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Durin.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -195,7 +195,7 @@
     "name": "ジン",
     "month": 3,
     "day": 14,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Qin.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -203,7 +203,7 @@
     "name": "夢見月瑞希",
     "month": 3,
     "day": 16,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Mizuki.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mizuki.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -211,7 +211,7 @@
     "name": "ノエル",
     "month": 3,
     "day": 21,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Noel.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
     "rarity": 4,
     "element": "Geo"
   },
@@ -219,7 +219,7 @@
     "name": "イファ",
     "month": 3,
     "day": 23,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Ifa.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ifa.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -227,7 +227,7 @@
     "name": "神里綾人",
     "month": 3,
     "day": 26,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Ayato.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -235,7 +235,7 @@
     "name": "シグウィン",
     "month": 3,
     "day": 30,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Sigewinne.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -243,7 +243,7 @@
     "name": "イネファ",
     "month": 4,
     "day": 2,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Ineffa.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -251,7 +251,7 @@
     "name": "アーロイ",
     "month": 4,
     "day": 4,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Aloy.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -259,7 +259,7 @@
     "name": "ディシア",
     "month": 4,
     "day": 7,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Dehya.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -267,7 +267,7 @@
     "name": "シャルロット",
     "month": 4,
     "day": 10,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Charlotte.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -275,7 +275,7 @@
     "name": "閑雲",
     "month": 4,
     "day": 11,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Liuyun.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -283,7 +283,7 @@
     "name": "魈",
     "month": 4,
     "day": 17,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Xiao.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -291,7 +291,7 @@
     "name": "夜蘭",
     "month": 4,
     "day": 20,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Yelan.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -299,7 +299,7 @@
     "name": "カチーナ",
     "month": 4,
     "day": 22,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Kachina.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png",
     "rarity": 4,
     "element": "Geo"
   },
@@ -307,7 +307,7 @@
     "name": "白朮",
     "month": 4,
     "day": 25,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Baizhuer.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -315,7 +315,7 @@
     "name": "ディルック",
     "month": 4,
     "day": 30,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Diluc.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -323,7 +323,7 @@
     "name": "キャンディス",
     "month": 5,
     "day": 3,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Candace.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
     "rarity": 4,
     "element": "Hydro"
   },
@@ -331,7 +331,7 @@
     "name": "コレイ",
     "month": 5,
     "day": 8,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Collei.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
     "rarity": 4,
     "element": "Dendro"
   },
@@ -339,7 +339,7 @@
     "name": "ネフェル",
     "month": 5,
     "day": 9,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Nefer.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nefer.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -347,7 +347,7 @@
     "name": "兹白",
     "month": 5,
     "day": 15,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Zibai.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png",
     "rarity": 5,
     "element": "Geo"
   },
@@ -355,7 +355,7 @@
     "name": "ゴロー",
     "month": 5,
     "day": 18,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Gorou.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
     "rarity": 4,
     "element": "Geo"
   },
@@ -363,7 +363,7 @@
     "name": "雲菫",
     "month": 5,
     "day": 21,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Yunjin.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
     "rarity": 4,
     "element": "Geo"
   },
@@ -371,7 +371,7 @@
     "name": "ダリア",
     "month": 5,
     "day": 25,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Dahlia.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dahlia.png",
     "rarity": 4,
     "element": "Hydro"
   },
@@ -379,7 +379,7 @@
     "name": "フィッシュル",
     "month": 5,
     "day": 27,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Fischl.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -387,7 +387,7 @@
     "name": "セトス",
     "month": 5,
     "day": 31,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Sethos.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sethos.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -395,7 +395,7 @@
     "name": "荒瀧一斗",
     "month": 6,
     "day": 1,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Itto.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
     "rarity": 5,
     "element": "Geo"
   },
@@ -403,7 +403,7 @@
     "name": "エスコフィエ",
     "month": 6,
     "day": 8,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Escoffier.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -411,7 +411,7 @@
     "name": "リサ",
     "month": 6,
     "day": 9,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Lisa.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -419,7 +419,7 @@
     "name": "ウェンティ",
     "month": 6,
     "day": 16,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Venti.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -427,7 +427,7 @@
     "name": "宵宮",
     "month": 6,
     "day": 21,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Yoimiya.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -435,7 +435,7 @@
     "name": "セノ",
     "month": 6,
     "day": 23,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Cyno.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -443,7 +443,7 @@
     "name": "雷電将軍",
     "month": 6,
     "day": 26,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Shougun.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -451,7 +451,7 @@
     "name": "八重神子",
     "month": 6,
     "day": 27,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Yae.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -459,7 +459,7 @@
     "name": "バーバラ",
     "month": 7,
     "day": 5,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Barbara.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
     "rarity": 4,
     "element": "Hydro"
   },
@@ -467,7 +467,7 @@
     "name": "カーヴェ",
     "month": 7,
     "day": 9,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Kaveh.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
     "rarity": 4,
     "element": "Dendro"
   },
@@ -475,7 +475,7 @@
     "name": "九条裟羅",
     "month": 7,
     "day": 14,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Sara.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -483,7 +483,7 @@
     "name": "胡桃",
     "month": 7,
     "day": 15,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Hutao.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -491,7 +491,7 @@
     "name": "タルタリヤ",
     "month": 7,
     "day": 20,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Tartaglia.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -499,7 +499,7 @@
     "name": "鹿野院平蔵",
     "month": 7,
     "day": 24,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Heizo.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -507,7 +507,7 @@
     "name": "クレー",
     "month": 7,
     "day": 27,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Klee.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -515,7 +515,7 @@
     "name": "久岐忍",
     "month": 7,
     "day": 27,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Shinobu.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -523,7 +523,7 @@
     "name": "煙緋",
     "month": 7,
     "day": 28,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Feiyan.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -531,7 +531,7 @@
     "name": "ムアラニ",
     "month": 8,
     "day": 3,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Mualani.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mualani.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -539,7 +539,7 @@
     "name": "イアンサ",
     "month": 8,
     "day": 8,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Iansan.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Iansan.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -547,7 +547,7 @@
     "name": "アンバー",
     "month": 8,
     "day": 10,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Ambor.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -555,7 +555,7 @@
     "name": "ミカ",
     "month": 8,
     "day": 11,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Mika.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -563,7 +563,7 @@
     "name": "ナヴィア",
     "month": 8,
     "day": 16,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Navia.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
     "rarity": 5,
     "element": "Geo"
   },
@@ -571,7 +571,7 @@
     "name": "千織",
     "month": 8,
     "day": 17,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Chiori.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chiori.png",
     "rarity": 5,
     "element": "Geo"
   },
@@ -579,7 +579,7 @@
     "name": "ファルザン",
     "month": 8,
     "day": 20,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Faruzan.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -587,7 +587,7 @@
     "name": "アルレッキーノ",
     "month": 8,
     "day": 22,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Arlecchino.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Arlecchino.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -595,7 +595,7 @@
     "name": "凝光",
     "month": 8,
     "day": 26,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Ningguang.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
     "rarity": 4,
     "element": "Geo"
   },
@@ -603,7 +603,7 @@
     "name": "マーヴィカ",
     "month": 8,
     "day": 28,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Mavuika.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mavuika.png",
     "rarity": 5,
     "element": "Pyro"
   },
@@ -611,7 +611,7 @@
     "name": "モナ",
     "month": 8,
     "day": 31,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Mona.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -619,7 +619,7 @@
     "name": "重雲",
     "month": 9,
     "day": 7,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Chongyun.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -627,7 +627,7 @@
     "name": "レザー",
     "month": 9,
     "day": 9,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Razor.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -635,7 +635,7 @@
     "name": "アルベド",
     "month": 9,
     "day": 13,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Albedo.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
     "rarity": 5,
     "element": "Geo"
   },
@@ -643,7 +643,7 @@
     "name": "クロリンデ",
     "month": 9,
     "day": 20,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Clorinde.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Clorinde.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -651,7 +651,7 @@
     "name": "アイノ",
     "month": 9,
     "day": 21,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Aino.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png",
     "rarity": 4,
     "element": "Hydro"
   },
@@ -659,7 +659,7 @@
     "name": "エミリエ",
     "month": 9,
     "day": 22,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Emilie.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Emilie.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -667,7 +667,7 @@
     "name": "フレミネ",
     "month": 9,
     "day": 24,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Freminet.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Freminet.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -675,7 +675,7 @@
     "name": "神里綾華",
     "month": 9,
     "day": 28,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Ayaka.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -683,7 +683,7 @@
     "name": "行秋",
     "month": 10,
     "day": 9,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Xingqiu.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
     "rarity": 4,
     "element": "Hydro"
   },
@@ -691,7 +691,7 @@
     "name": "フリーナ",
     "month": 10,
     "day": 13,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Furina.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -699,7 +699,7 @@
     "name": "オロルン",
     "month": 10,
     "day": 14,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Olorun.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -707,7 +707,7 @@
     "name": "辛炎",
     "month": 10,
     "day": 16,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Xinyan.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -715,7 +715,7 @@
     "name": "早柚",
     "month": 10,
     "day": 19,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Sayu.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -723,7 +723,7 @@
     "name": "エウルア",
     "month": 10,
     "day": 25,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Eula.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -731,7 +731,7 @@
     "name": "ナヒーダ",
     "month": 10,
     "day": 27,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Nahida.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -739,7 +739,7 @@
     "name": "楓原万葉",
     "month": 10,
     "day": 29,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Kazuha.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -747,7 +747,7 @@
     "name": "フリンズ",
     "month": 10,
     "day": 31,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Flins.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Flins.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -755,7 +755,7 @@
     "name": "香菱",
     "month": 11,
     "day": 2,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Xiangling.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -763,7 +763,7 @@
     "name": "スカーク",
     "month": 11,
     "day": 5,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_SkirkNew.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_SkirkNew.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -771,7 +771,7 @@
     "name": "キィニチ",
     "month": 11,
     "day": 11,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Kinich.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -779,7 +779,7 @@
     "name": "ヴァレサ",
     "month": 11,
     "day": 15,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Varesa.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varesa.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -787,7 +787,7 @@
     "name": "刻晴",
     "month": 11,
     "day": 20,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Keqing.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
     "rarity": 5,
     "element": "Electro"
   },
@@ -795,7 +795,7 @@
     "name": "リオセスリ",
     "month": 11,
     "day": 23,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Wriothesley.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -803,7 +803,7 @@
     "name": "スクロース",
     "month": 11,
     "day": 26,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Sucrose.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
     "rarity": 4,
     "element": "Anemo"
   },
@@ -811,7 +811,7 @@
     "name": "ガイア",
     "month": 11,
     "day": 30,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Kaeya.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -819,7 +819,7 @@
     "name": "甘雨",
     "month": 12,
     "day": 2,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Ganyu.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
     "rarity": 5,
     "element": "Cryo"
   },
@@ -827,7 +827,7 @@
     "name": "ニィロウ",
     "month": 12,
     "day": 3,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Nilou.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -835,7 +835,7 @@
     "name": "チャスカ",
     "month": 12,
     "day": 10,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Chasca.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chasca.png",
     "rarity": 5,
     "element": "Anemo"
   },
@@ -843,7 +843,7 @@
     "name": "ヌヴィレット",
     "month": 12,
     "day": 18,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Neuvillette.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png",
     "rarity": 5,
     "element": "Hydro"
   },
@@ -851,7 +851,7 @@
     "name": "レイラ",
     "month": 12,
     "day": 19,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Layla.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
     "rarity": 4,
     "element": "Cryo"
   },
@@ -859,7 +859,7 @@
     "name": "ドリー",
     "month": 12,
     "day": 21,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Dori.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
     "rarity": 4,
     "element": "Electro"
   },
@@ -867,7 +867,7 @@
     "name": "嘉明",
     "month": 12,
     "day": 22,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Gaming.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png",
     "rarity": 4,
     "element": "Pyro"
   },
@@ -875,7 +875,7 @@
     "name": "イルーガ",
     "month": 12,
     "day": 23,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Illuga.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Illuga.png",
     "rarity": 4,
     "element": "Geo"
   },
@@ -883,7 +883,7 @@
     "name": "ティナリ",
     "month": 12,
     "day": 29,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Tighnari.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
     "rarity": 5,
     "element": "Dendro"
   },
@@ -891,7 +891,7 @@
     "name": "鍾離",
     "month": 12,
     "day": 31,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_Zhongli.png",
+    "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
     "rarity": 5,
     "element": "Geo"
   }

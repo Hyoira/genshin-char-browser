@@ -21,12 +21,12 @@ interface QuizState {
   element: string;
   answered: boolean;
   selected: string | null;
-  score: number;
-  total: number;
   showHint: boolean;
 }
 
 type QuizMode = 'skill' | 'burst';
+
+const MAX_QUESTIONS = 10;
 
 const elementColors: Record<string, string> = {
   Pyro: '#ff6b6b',
@@ -54,6 +54,11 @@ export default function TalentQuiz() {
   const [mode, setMode] = useState<QuizMode>('skill');
   const [quiz, setQuiz] = useState<QuizState | null>(null);
   const [loading, setLoading] = useState(false);
+  
+  // Game State
+  const [score, setScore] = useState(0);
+  const [questionCount, setQuestionCount] = useState(1);
+  const [isFinished, setIsFinished] = useState(false);
 
   const generateQuiz = useCallback(() => {
     setLoading(true);
@@ -91,7 +96,7 @@ export default function TalentQuiz() {
     
     const options = [...wrongOptions, answerChar.name].sort(() => Math.random() - 0.5);
 
-    setQuiz(prev => ({
+    setQuiz({
       options,
       answer: answerChar.name,
       talentIcon: talent.icon,
@@ -99,49 +104,115 @@ export default function TalentQuiz() {
       element,
       answered: false,
       selected: null,
-      showHint: false,
-      score: prev && prev.total > 0 ? prev.score : 0,
-      total: prev && prev.total > 0 ? prev.total : 0
-    }));
+      showHint: false
+    });
     
     setLoading(false);
   }, [mode]);
 
-  // Reset quiz when mode changes
+  // Reset game when mode changes
   useEffect(() => {
+    setScore(0);
+    setQuestionCount(1);
+    setIsFinished(false);
     setQuiz(null);
   }, [mode]);
 
   // Initial load
   useEffect(() => {
-    if (!quiz) generateQuiz();
-  }, [generateQuiz, quiz]);
+    if (!quiz && !isFinished) generateQuiz();
+  }, [generateQuiz, quiz, isFinished]);
 
   const handleAnswer = (option: string) => {
-    if (quiz?.answered) return;
+    if (quiz?.answered || isFinished) return;
     
     const isCorrect = option === quiz?.answer;
+    
     setQuiz(prev => prev ? {
       ...prev,
       answered: true,
-      selected: option,
-      score: isCorrect ? prev.score + 1 : prev.score,
-      total: prev.total + 1
+      selected: option
     } : null);
+
+    if (isCorrect) {
+      setScore(prev => prev + 1);
+    }
   };
 
   const nextQuestion = () => {
-    generateQuiz();
+    if (questionCount >= MAX_QUESTIONS) {
+      setIsFinished(true);
+    } else {
+      setQuestionCount(prev => prev + 1);
+      generateQuiz();
+    }
+  };
+
+  const restartGame = () => {
+    setScore(0);
+    setQuestionCount(1);
+    setIsFinished(false);
+    setQuiz(null); // Triggers generateQuiz via useEffect
   };
 
   const handleModeChange = (newMode: QuizMode) => {
     setMode(newMode);
-    setQuiz(null);
+    // useEffect handles reset
   };
 
   const showHint = () => {
     setQuiz(prev => prev ? { ...prev, showHint: true } : null);
   };
+
+  if (isFinished) {
+    return (
+      <div className="talent-quiz result-screen">
+        <div className="quiz-card">
+          <h2>🎉 結果発表 🎉</h2>
+          <div className="final-score">
+            {score} / {MAX_QUESTIONS}
+          </div>
+          <div className="result-comment">
+            {score === MAX_QUESTIONS ? '素晴らしい！全問正解です！🏆' :
+             score >= MAX_QUESTIONS * 0.8 ? '惜しい！あと少しです！✨' :
+             score >= MAX_QUESTIONS * 0.5 ? 'ナイスファイト！👍' :
+             'まだまだ修行が必要ですね...💪'}
+          </div>
+          <button className="restart-btn" onClick={restartGame}>もう一度挑戦する</button>
+        </div>
+        <style>{`
+          .talent-quiz { max-width: 600px; margin: 0 auto; }
+          .quiz-card {
+            background: #2a2a2a;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+          }
+          .final-score {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #646cff;
+          }
+          .result-comment { font-size: 1.2rem; color: #ddd; }
+          .restart-btn {
+            padding: 0.8rem 2rem;
+            font-size: 1.1rem;
+            background: #646cff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+          }
+          .restart-btn:hover { background: #535bf2; }
+        `}</style>
+      </div>
+    );
+  }
 
   if (!quiz || loading) return <div className="quiz-loading">読み込み中...</div>;
 
@@ -163,11 +234,16 @@ export default function TalentQuiz() {
       </div>
 
       <div className="score-board">
-        スコア: {quiz.score} / {quiz.total}
+        問題: {questionCount} / {MAX_QUESTIONS} | スコア: {score}
       </div>
 
       <div className="quiz-card">
-        <h2>この{mode === 'skill' ? '元素スキル' : '元素爆発'}は誰のもの？</h2>
+        {quiz.answered && (
+          <button className="next-btn top" onClick={nextQuestion}>
+            {questionCount >= MAX_QUESTIONS ? '結果を見る' : '次の問題へ'}
+          </button>
+        )}
+
         <div 
           className="quiz-image" 
           style={quiz.showHint ? {
@@ -215,10 +291,6 @@ export default function TalentQuiz() {
             </button>
           ))}
         </div>
-
-        {quiz.answered && (
-          <button className="next-btn" onClick={nextQuestion}>次の問題へ</button>
-        )}
       </div>
 
       <style>{`
@@ -227,19 +299,19 @@ export default function TalentQuiz() {
           margin: 0 auto;
           display: flex;
           flex-direction: column;
-          gap: 2rem;
+          gap: 1rem;
         }
         .mode-selector {
           display: flex;
           justify-content: center;
-          gap: 1rem;
-          padding: 1rem;
+          gap: 0.5rem;
+          padding: 0.5rem;
           background: rgba(0,0,0,0.2);
           border-radius: 12px;
         }
         .mode-selector button {
-          padding: 0.8rem 1.5rem;
-          font-size: 1.1rem;
+          padding: 0.5rem 1rem;
+          font-size: 0.95rem;
           background: #444;
           color: white;
           border: 2px solid transparent;
@@ -255,25 +327,32 @@ export default function TalentQuiz() {
           border-color: #535bf2;
         }
         .score-board {
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
         }
         .quiz-card {
             background: #2a2a2a;
             border-radius: 12px;
-            padding: 2rem;
+            padding: 1.2rem;
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 1.5rem;
+            gap: 1rem;
+        }
+        .quiz-card h2 {
+            font-size: 1.2rem;
+            margin: 0;
         }
         .quiz-image {
-            width: 128px;
-            height: 128px;
+            width: 100px;
+            height: 100px;
             background: rgba(0,0,0,0.2);
             border-radius: 50%;
-            padding: 10px;
+            padding: 8px;
             border: 2px solid #444;
             transition: all 0.3s;
         }
@@ -283,8 +362,8 @@ export default function TalentQuiz() {
             object-fit: contain;
         }
         .hint-btn {
-            padding: 0.6rem 1.5rem;
-            font-size: 1rem;
+            padding: 0.4rem 1rem;
+            font-size: 0.9rem;
             background: #555;
             color: #ffd700;
             border: 2px solid #777;
@@ -297,21 +376,21 @@ export default function TalentQuiz() {
             border-color: #ffd700;
         }
         .hint-display {
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: bold;
-            padding: 0.5rem 1rem;
+            padding: 0.3rem 0.8rem;
             border-radius: 8px;
             background: rgba(0,0,0,0.3);
         }
         .options-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1rem;
+            gap: 0.8rem;
             width: 100%;
         }
         .option-btn {
-            padding: 1rem;
-            font-size: 1.1rem;
+            padding: 0.8rem;
+            font-size: 1rem;
             background: #444;
             color: white;
             border: 2px solid transparent;
@@ -333,9 +412,9 @@ export default function TalentQuiz() {
             opacity: 0.7;
         }
         .result-message {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
-            padding: 1rem;
+            padding: 0.5rem;
             border-radius: 8px;
             width: 100%;
             text-align: center;
@@ -349,24 +428,28 @@ export default function TalentQuiz() {
             background: rgba(239, 83, 80, 0.1);
         }
         .talent-name {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             font-weight: normal;
-            margin-top: 0.5rem;
+            margin-top: 0.2rem;
             color: #aaa;
         }
         .element-info {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             font-weight: normal;
-            margin-top: 0.3rem;
+            margin-top: 0.1rem;
         }
         .next-btn {
-            padding: 0.8rem 2rem;
-            font-size: 1.1rem;
+            padding: 0.6rem 1.5rem;
+            font-size: 1rem;
             background: #646cff;
             color: white;
             border: none;
             border-radius: 8px;
             cursor: pointer;
+            width: 100%;
+        }
+        .next-btn.top {
+            margin-bottom: 0.5rem;
         }
         .next-btn:hover {
             background: #535bf2;

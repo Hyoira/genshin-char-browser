@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Genshin キャラソートビューワ</h1>
+        <h1>Teyvat Index</h1>
         <nav className="tabs">
           <button 
             className={activeTab === 'list' ? 'active' : ''} 

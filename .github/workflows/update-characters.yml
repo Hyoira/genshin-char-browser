@@ -55,11 +55,11 @@ jobs:
           git push
       
       - name: Build
-        if: steps.check.outputs.changed == 'true'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.check.outputs.changed == 'true'
         run: npm run build
       
       - name: Deploy to GitHub Pages
-        if: steps.check.outputs.changed == 'true'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.check.outputs.changed == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

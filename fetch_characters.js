@@ -38,8 +38,9 @@ for (const name of names) {
     // 元素名の変換
     const element = elementMap[char.elementType] || 'None';
     
-    // アイコンURLの優先順位
-    let icon = char.images?.mihoyo_icon || char.images?.icon || char.images?.mihoyo_sideIcon || '';
+    // アイコンURL: Enka Network UIエンドポイントを使用
+    const filenameIcon = char.images?.filename_icon;
+    let icon = filenameIcon ? `https://enka.network/ui/${filenameIcon}.png` : '';
     
     // データ構築
     const data = {

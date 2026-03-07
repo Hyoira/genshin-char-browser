@@ -2,8 +2,8 @@ name: Update Characters
 
 on:
   schedule:
-    # 毎週月曜 9:00 JST (0:00 UTC)
-    - cron: '0 0 * * 1'
+    # 毎週金曜 13:00 JST (4:00 UTC)
+    - cron: '0 4 * * 5'
   workflow_dispatch: # 手動実行も可能
 
 jobs:
@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
+      - name: Update genshin-db to latest
+        run: npm install genshin-db@latest
+      
       - name: Fetch latest character data
         run: node fetch_characters.js
 
@@ -33,7 +36,7 @@ jobs:
       - name: Check for changes
         id: check
         run: |
-          if git diff --quiet src/; then
+          if git diff --quiet src/ package.json package-lock.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -44,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/
+          git add src/ package.json package-lock.json
           git commit -m "chore: update character and talent data"
           git push
       

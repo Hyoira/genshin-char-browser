@@ -1933,6 +1933,27 @@
     ]
   },
   {
+    "name": "ファルカ",
+    "element": "Anemo",
+    "talents": [
+      {
+        "name": "西風剣術・流光の舞",
+        "icon": "https://enka.network/ui/Skill_A_04.png",
+        "type": "combat1"
+      },
+      {
+        "name": "堕ちる烈風",
+        "icon": "https://enka.network/ui/Skill_S_Varka_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "我こそ朔風",
+        "icon": "https://enka.network/ui/Skill_E_Varka_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "ウェンティ",
     "element": "Anemo",
     "talents": [

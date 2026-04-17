@@ -1260,6 +1260,27 @@
     ]
   },
   {
+    "name": "リンネア",
+    "element": "Geo",
+    "talents": [
+      {
+        "name": "捕獲作戦",
+        "icon": "https://enka.network/ui/Skill_A_02.png",
+        "type": "combat1"
+      },
+      {
+        "name": "ルミのやっふー作戦",
+        "icon": "https://enka.network/ui/Skill_S_Linnea_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "絶体絶命サバイバル備忘録",
+        "icon": "https://enka.network/ui/Skill_E_Linnea_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "リサ",
     "element": "Electro",
     "talents": [

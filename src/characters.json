@@ -558,6 +558,15 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Layla.png"
   },
   {
+    "id": "10000130",
+    "name": "リンネア",
+    "rarity": 5,
+    "element": "Geo",
+    "version": "6.5",
+    "va": "白石晴香",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Linnea.png"
+  },
+  {
     "id": "10000006",
     "name": "リサ",
     "rarity": 4,

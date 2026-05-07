@@ -1,73 +1,42 @@
-# React + TypeScript + Vite
+# Teyvat Index
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+原神のキャラクター情報をまとめたブラウザアプリです。
 
-Currently, two official plugins are available:
+**https://hyoira.github.io/genshin-char-browser/**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 機能
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### キャラ一覧
+全キャラクターをレアリティ・元素・実装バージョン・誕生日で並び替えて表示します。
+右クリック（スマホは長押し）でアイコンや全身立ち絵のダウンロード・クリップボードコピーができます。
 
-## Expanding the ESLint configuration
+### 天賦クイズ
+元素スキル / 元素爆発のアイコンを見てキャラクターを当てるクイズです。
+1ゲーム10問、元素ヒントあり。
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 幻想シアター
+各キャラクターが持つ幻想シアターポーズの一覧です。
+ポーズあり / なしで絞り込めます。
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 開発
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+データ生成のみ実行する場合:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run generate-data
 ```
+
+## 技術スタック
+
+- React 19 + TypeScript + Vite
+- [genshin-db](https://github.com/thehectorhua/genshin-db) でキャラクターデータを取得
+- GitHub Pages 

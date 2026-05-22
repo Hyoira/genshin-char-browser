@@ -256,6 +256,14 @@
     "element": "Electro"
   },
   {
+    "name": "ローエン",
+    "month": 4,
+    "day": 3,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Lohen.png",
+    "rarity": 5,
+    "element": "Cryo"
+  },
+  {
     "name": "アーロイ",
     "month": 4,
     "day": 4,
@@ -696,6 +704,14 @@
     "element": "Cryo"
   },
   {
+    "name": "ニコ",
+    "month": 9,
+    "day": 29,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Nicole.png",
+    "rarity": 5,
+    "element": "Pyro"
+  },
+  {
     "name": "行秋",
     "month": 10,
     "day": 9,
@@ -806,6 +822,14 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Keqing.png",
     "rarity": 5,
     "element": "Electro"
+  },
+  {
+    "name": "プルーネ",
+    "month": 11,
+    "day": 20,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Prune.png",
+    "rarity": 4,
+    "element": "Anemo"
   },
   {
     "name": "リオセスリ",

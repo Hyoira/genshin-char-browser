@@ -1302,6 +1302,27 @@
     ]
   },
   {
+    "name": "ローエン",
+    "element": "Cryo",
+    "talents": [
+      {
+        "name": "西風槍術・破誓",
+        "icon": "https://enka.network/ui/Skill_A_03.png",
+        "type": "combat1"
+      },
+      {
+        "name": "掟破りの奇兵",
+        "icon": "https://enka.network/ui/Skill_S_Lohen_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "制裁の刻",
+        "icon": "https://enka.network/ui/Skill_E_Lohen_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "リネット",
     "element": "Anemo",
     "talents": [
@@ -1534,6 +1555,27 @@
     ]
   },
   {
+    "name": "ニコ",
+    "element": "Pyro",
+    "talents": [
+      {
+        "name": "寓意",
+        "icon": "https://enka.network/ui/Skill_A_Catalyst_MD.png",
+        "type": "combat1"
+      },
+      {
+        "name": "聖言黙示・顕れぬ光",
+        "icon": "https://enka.network/ui/Skill_S_Nicole_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "聖言黙示・天路歴程",
+        "icon": "https://enka.network/ui/Skill_E_Nicole_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "ニィロウ",
     "element": "Hydro",
     "talents": [
@@ -1613,6 +1655,27 @@
       {
         "name": "闇声の残響",
         "icon": "https://enka.network/ui/Skill_E_Olorun_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
+    "name": "プルーネ",
+    "element": "Anemo",
+    "talents": [
+      {
+        "name": "ドッスン！魔女祓いの鉄槌",
+        "icon": "https://enka.network/ui/Skill_A_Catalyst_MD.png",
+        "type": "combat1"
+      },
+      {
+        "name": "リンリン！魔女を狩る音",
+        "icon": "https://enka.network/ui/Skill_S_Prune_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "魔女狩りの時間なのだ！",
+        "icon": "https://enka.network/ui/Skill_E_Prune_01_HD.png",
         "type": "combat3"
       }
     ]

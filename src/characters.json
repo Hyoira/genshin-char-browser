@@ -576,6 +576,15 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Lisa.png"
   },
   {
+    "id": "10000129",
+    "name": "ローエン",
+    "rarity": 5,
+    "element": "Cryo",
+    "version": "6.6",
+    "va": "天﨑滉平",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Lohen.png"
+  },
+  {
     "id": "10000007",
     "name": "蛍",
     "rarity": 5,
@@ -693,6 +702,15 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Neuvillette.png"
   },
   {
+    "id": "10000131",
+    "name": "ニコ",
+    "rarity": 5,
+    "element": "Pyro",
+    "version": "6.6",
+    "va": "豊口めぐみ",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Nicole.png"
+  },
+  {
     "id": "10000070",
     "name": "ニィロウ",
     "rarity": 5,
@@ -727,6 +745,15 @@
     "version": "5.2",
     "va": "近藤隆",
     "icon": "https://enka.network/ui/UI_AvatarIcon_Olorun.png"
+  },
+  {
+    "id": "10000132",
+    "name": "プルーネ",
+    "rarity": 4,
+    "element": "Anemo",
+    "version": "6.6",
+    "va": "長月あおい",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Prune.png"
   },
   {
     "id": "10000035",

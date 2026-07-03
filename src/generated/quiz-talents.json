@@ -1765,6 +1765,27 @@
     ]
   },
   {
+    "name": "サンドローネ",
+    "element": "Cryo",
+    "talents": [
+      {
+        "name": "事象式：自明の演繹",
+        "icon": "https://enka.network/ui/Skill_A_04.png",
+        "type": "combat1"
+      },
+      {
+        "name": "事象式：自在な解析",
+        "icon": "https://enka.network/ui/Skill_S_MarionetteNew_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "事象式：Q.E.D",
+        "icon": "https://enka.network/ui/Skill_E_MarionetteNew_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "珊瑚宮心海",
     "element": "Hydro",
     "talents": [

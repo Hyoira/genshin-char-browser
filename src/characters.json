@@ -792,6 +792,15 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Rosaria.png"
   },
   {
+    "id": "10000133",
+    "name": "サンドローネ",
+    "rarity": 5,
+    "element": "Cryo",
+    "version": "6.7",
+    "va": "本多真梨子",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_MarionetteNew.png"
+  },
+  {
     "id": "10000054",
     "name": "珊瑚宮心海",
     "rarity": 5,

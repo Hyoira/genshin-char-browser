@@ -56,6 +56,14 @@
     "element": "Pyro"
   },
   {
+    "name": "サンドローネ",
+    "month": 1,
+    "day": 13,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_MarionetteNew.png",
+    "rarity": 5,
+    "element": "Cryo"
+  },
+  {
     "name": "コロンビーナ",
     "month": 1,
     "day": 14,

@@ -5,15 +5,22 @@ on:
     branches:
       - master
   schedule:
-    # 毎週金曜 13:00 JST (4:00 UTC)
-    - cron: '0 4 * * 5'
+    # 毎週金曜 13:17 JST (4:17 UTC)
+    - cron: '17 4 * * 5'
   workflow_dispatch: # 手動実行も可能
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+    outputs:
+      should_deploy: ${{ steps.deploy-check.outputs.should_deploy }}
     
     steps:
       - uses: actions/checkout@v4
@@ -53,14 +60,44 @@ jobs:
           git add src/ package.json package-lock.json
           git commit -m "chore: update character and talent data"
           git push
+
+      - name: Check whether to deploy
+        id: deploy-check
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          DATA_CHANGED: ${{ steps.check.outputs.changed }}
+        run: |
+          if [ "$EVENT_NAME" = "push" ] || [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$DATA_CHANGED" = "true" ]; then
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+          fi
       
       - name: Build
-        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.check.outputs.changed == 'true'
+        if: steps.deploy-check.outputs.should_deploy == 'true'
         run: npm run build
-      
-      - name: Deploy to GitHub Pages
-        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || steps.check.outputs.changed == 'true'
-        uses: peaceiris/actions-gh-pages@v4
+
+      - name: Configure GitHub Pages
+        if: steps.deploy-check.outputs.should_deploy == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        if: steps.deploy-check.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          path: ./dist
+
+  deploy:
+    if: needs.update.outputs.should_deploy == 'true'
+    needs: update
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

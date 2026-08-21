@@ -63,6 +63,27 @@
     ]
   },
   {
+    "name": "アリョーシャ",
+    "element": "Electro",
+    "talents": [
+      {
+        "name": "迅雷の角槍",
+        "icon": "https://enka.network/ui/Skill_A_03.png",
+        "type": "combat1"
+      },
+      {
+        "name": "伏撃の雷鳴",
+        "icon": "https://enka.network/ui/Skill_S_Alyosha_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "攻守の猟犬",
+        "icon": "https://enka.network/ui/Skill_E_Alyosha_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "アンバー",
     "element": "Pyro",
     "talents": [
@@ -1365,28 +1386,6 @@
     ]
   },
   {
-    "name": "ドール（男）",
-    "element": "None",
-    "talents": [
-      {
-        "name": "異境の剣術・慎重な守り",
-        "icon": "https://enka.network/ui/Skill_A_01.png",
-        "type": "combat1"
-      }
-    ]
-  },
-  {
-    "name": "ドール（女）",
-    "element": "None",
-    "talents": [
-      {
-        "name": "異境の剣術・慎重な守り",
-        "icon": "https://enka.network/ui/Skill_A_01.png",
-        "type": "combat1"
-      }
-    ]
-  },
-  {
     "name": "マーヴィカ",
     "element": "Pyro",
     "talents": [
@@ -1634,6 +1633,27 @@
       {
         "name": "大掃除",
         "icon": "https://enka.network/ui/Skill_E_Noel_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
+    "name": "オデット",
+    "element": "Cryo",
+    "talents": [
+      {
+        "name": "雪鳥のヴァリエーション",
+        "icon": "https://enka.network/ui/Skill_A_01.png",
+        "type": "combat1"
+      },
+      {
+        "name": "柔きファントムの夜の舞",
+        "icon": "https://enka.network/ui/Skill_S_Odette_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "疾きブルーバードの夢",
+        "icon": "https://enka.network/ui/Skill_E_Odette_01_HD.png",
         "type": "combat3"
       }
     ]

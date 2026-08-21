@@ -45,6 +45,15 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Aloy.png"
   },
   {
+    "id": "10000148",
+    "name": "アリョーシャ",
+    "rarity": 4,
+    "element": "Electro",
+    "version": "7.0",
+    "va": "佐藤元",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Alyosha.png"
+  },
+  {
     "id": "10000021",
     "name": "アンバー",
     "rarity": 4,
@@ -736,6 +745,15 @@
     "version": "1.0",
     "va": "高尾奏音",
     "icon": "https://enka.network/ui/UI_AvatarIcon_Noel.png"
+  },
+  {
+    "id": "10000150",
+    "name": "オデット",
+    "rarity": 5,
+    "element": "Cryo",
+    "version": "7.0",
+    "va": "上坂すみれ",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Odette.png"
   },
   {
     "id": "10000105",

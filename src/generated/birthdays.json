@@ -1,21 +1,5 @@
 [
   {
-    "name": "ドール（男）",
-    "month": 0,
-    "day": 0,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_MannequinBoy.png",
-    "rarity": 5,
-    "element": "None"
-  },
-  {
-    "name": "ドール（女）",
-    "month": 0,
-    "day": 0,
-    "icon": "https://enka.network/ui/UI_AvatarIcon_MannequinGirl.png",
-    "rarity": 5,
-    "element": "None"
-  },
-  {
     "name": "放浪者",
     "month": 1,
     "day": 3,
@@ -120,6 +104,14 @@
     "element": "Pyro"
   },
   {
+    "name": "アリョーシャ",
+    "month": 2,
+    "day": 9,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Alyosha.png",
+    "rarity": 4,
+    "element": "Electro"
+  },
+  {
     "name": "アルハイゼン",
     "month": 2,
     "day": 11,
@@ -142,6 +134,14 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Varka.png",
     "rarity": 5,
     "element": "Anemo"
+  },
+  {
+    "name": "オデット",
+    "month": 2,
+    "day": 20,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Odette.png",
+    "rarity": 5,
+    "element": "Cryo"
   },
   {
     "name": "珊瑚宮心海",

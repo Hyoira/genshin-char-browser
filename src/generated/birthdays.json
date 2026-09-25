@@ -104,6 +104,14 @@
     "element": "Pyro"
   },
   {
+    "name": "ヴェスナ",
+    "month": 2,
+    "day": 4,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Vesna.png",
+    "rarity": 5,
+    "element": "Anemo"
+  },
+  {
     "name": "アリョーシャ",
     "month": 2,
     "day": 9,
@@ -244,6 +252,14 @@
     "month": 3,
     "day": 26,
     "icon": "https://enka.network/ui/UI_AvatarIcon_Ayato.png",
+    "rarity": 5,
+    "element": "Hydro"
+  },
+  {
+    "name": "ヴォジャニーツァ",
+    "month": 3,
+    "day": 29,
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Vodyanitsa.png",
     "rarity": 5,
     "element": "Hydro"
   },

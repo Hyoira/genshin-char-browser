@@ -945,6 +945,24 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Venti.png"
   },
   {
+    "id": "10000143",
+    "name": "ヴェスナ",
+    "rarity": 5,
+    "element": "Anemo",
+    "version": "7.1",
+    "va": "平野綾",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Vesna.png"
+  },
+  {
+    "id": "10000140",
+    "name": "ヴォジャニーツァ",
+    "rarity": 5,
+    "element": "Hydro",
+    "version": "7.1",
+    "va": "伊藤かな恵",
+    "icon": "https://enka.network/ui/UI_AvatarIcon_Vodyanitsa.png"
+  },
+  {
     "id": "10000075",
     "name": "放浪者",
     "rarity": 5,

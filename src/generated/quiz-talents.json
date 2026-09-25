@@ -2100,6 +2100,48 @@
     ]
   },
   {
+    "name": "ヴェスナ",
+    "element": "Anemo",
+    "talents": [
+      {
+        "name": "風巡りの剣舞",
+        "icon": "https://enka.network/ui/Skill_A_01.png",
+        "type": "combat1"
+      },
+      {
+        "name": "操典「勝利への道筋」",
+        "icon": "https://enka.network/ui/Skill_S_Vesna_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "女皇陛下に敬礼を",
+        "icon": "https://enka.network/ui/Skill_E_Vesna_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
+    "name": "ヴォジャニーツァ",
+    "element": "Hydro",
+    "talents": [
+      {
+        "name": "水色のアリア",
+        "icon": "https://enka.network/ui/Skill_A_Catalyst_MD.png",
+        "type": "combat1"
+      },
+      {
+        "name": "流れる朝のレチタティーヴォ",
+        "icon": "https://enka.network/ui/Skill_S_Vodyanitsa_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "共に沈みゆくコーダ",
+        "icon": "https://enka.network/ui/Skill_E_Vodyanitsa_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "放浪者",
     "element": "Anemo",
     "talents": [

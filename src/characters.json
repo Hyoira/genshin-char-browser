@@ -657,6 +657,15 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Mika.png"
   },
   {
+    "id": "10000136",
+    "name": "ミティヤ",
+    "rarity": 5,
+    "element": "Electro",
+    "version": "7.2",
+    "va": "小林裕介",
+    "icon": ""
+  },
+  {
     "id": "10000041",
     "name": "モナ",
     "rarity": 5,
@@ -916,6 +925,15 @@
     "version": "3.0",
     "va": "小林沙苗",
     "icon": "https://enka.network/ui/UI_AvatarIcon_Tighnari.png"
+  },
+  {
+    "id": "10000137",
+    "name": "バレリー",
+    "rarity": 4,
+    "element": "Electro",
+    "version": "7.2",
+    "va": "古川慎",
+    "icon": ""
   },
   {
     "id": "10000111",

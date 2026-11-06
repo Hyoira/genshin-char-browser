@@ -112,6 +112,14 @@
     "element": "Anemo"
   },
   {
+    "name": "ミティヤ",
+    "month": 2,
+    "day": 8,
+    "icon": "",
+    "rarity": 5,
+    "element": "Electro"
+  },
+  {
     "name": "アリョーシャ",
     "month": 2,
     "day": 9,
@@ -246,6 +254,14 @@
     "icon": "https://enka.network/ui/UI_AvatarIcon_Ifa.png",
     "rarity": 4,
     "element": "Anemo"
+  },
+  {
+    "name": "バレリー",
+    "month": 3,
+    "day": 24,
+    "icon": "",
+    "rarity": 4,
+    "element": "Electro"
   },
   {
     "name": "神里綾人",

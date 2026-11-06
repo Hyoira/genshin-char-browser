@@ -1428,6 +1428,27 @@
     ]
   },
   {
+    "name": "ミティヤ",
+    "element": "Electro",
+    "talents": [
+      {
+        "name": "連鎖反応",
+        "icon": "https://enka.network/ui/Skill_A_Catalyst_MD.png",
+        "type": "combat1"
+      },
+      {
+        "name": "定律・変数検知",
+        "icon": "https://enka.network/ui/Skill_S_Mitya_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "解析・変化ノ理",
+        "icon": "https://enka.network/ui/Skill_E_Mitya_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
     "name": "モナ",
     "element": "Hydro",
     "talents": [
@@ -2032,6 +2053,27 @@
       {
         "name": "造生·蔓纏いの矢",
         "icon": "https://enka.network/ui/Skill_E_Tighnari_01_HD.png",
+        "type": "combat3"
+      }
+    ]
+  },
+  {
+    "name": "バレリー",
+    "element": "Electro",
+    "talents": [
+      {
+        "name": "近衛戦法・剣攻盾守",
+        "icon": "https://enka.network/ui/Skill_A_01.png",
+        "type": "combat1"
+      },
+      {
+        "name": "攻勢防御・要塞突撃",
+        "icon": "https://enka.network/ui/Skill_S_Valeriy_01.png",
+        "type": "combat2"
+      },
+      {
+        "name": "集中砲火・雷弾強襲",
+        "icon": "https://enka.network/ui/Skill_E_Valeriy_01_HD.png",
         "type": "combat3"
       }
     ]
